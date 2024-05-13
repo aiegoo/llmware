@@ -28,7 +28,7 @@ def set_collection_database():
     active_db = LLMWareConfig().get_active_db("sqlite")
 
     print("update: current 'active' collection database - ", active_db)
-
+exrea
     #   supported db list
     supported_db = LLMWareConfig().get_supported_collection_db()
 
