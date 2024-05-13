@@ -25,7 +25,7 @@ from llmware.configs import LLMWareConfig
 def set_collection_database():
 
     #   check the current active db
-    active_db = LLMWareConfig().get_active_db()
+    active_db = LLMWareConfig().get_active_db("sqlite")
 
     print("update: current 'active' collection database - ", active_db)
 
