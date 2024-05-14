@@ -14,3 +14,4 @@ docs/_site/
 
 # Mac
 .DS_Store/
+.ipynb_checkpoints/*.*
