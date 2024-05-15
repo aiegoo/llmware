@@ -90,3 +90,114 @@
 [I 2024-05-15 08:21:29.337 ServerApp] Connecting to kernel 2f72c1d9-104a-4916-a183-b6f23533b2fb.
 [I 2024-05-15 08:21:29.350 ServerApp] Connecting to kernel 2f72c1d9-104a-4916-a183-b6f23533b2fb.
 [I 2024-05-15 08:21:30.941 ServerApp] Connecting to kernel 2f72c1d9-104a-4916-a183-b6f23533b2fb.
+[I 2024-05-15 08:23:26.658 ServerApp] Saving file at /examples/Datasets/working_with_datasets.ipynb
+[I 2024-05-15 08:23:26.658 ServerApp] Saving working_with_datasets.ipynb
+[I 2024-05-15 08:23:40.308 ServerApp] Starting buffering for 2f72c1d9-104a-4916-a183-b6f23533b2fb:c0ef96dc-fa99-40cd-a395-67c26b0c2ba3
+[I 2024-05-15 16:13:49.991 ServerApp] Extension package jupyter_lsp took 0.1255s to import
+[I 2024-05-15 16:13:50.115 ServerApp] Extension package jupyter_server_terminals took 0.1235s to import
+[I 2024-05-15 16:13:50.941 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-05-15 16:13:50.945 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-05-15 16:13:50.948 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-05-15 16:13:50.951 ServerApp] notebook | extension was successfully linked.
+[I 2024-05-15 16:13:51.219 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-05-15 16:13:51.329 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-05-15 16:13:51.330 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-05-15 16:13:51.331 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-05-15 16:13:51.333 LabApp] JupyterLab extension loaded from C:\Python312\Lib\site-packages\jupyterlab
+[I 2024-05-15 16:13:51.333 LabApp] JupyterLab application directory is C:\Python312\share\jupyter\lab
+[I 2024-05-15 16:13:51.333 LabApp] Extension Manager is 'pypi'.
+[I 2024-05-15 16:13:51.578 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-05-15 16:13:51.581 ServerApp] notebook | extension was successfully loaded.
+[I 2024-05-15 16:13:51.582 ServerApp] Serving notebooks from local directory: D:\repos\uconcreative\accent-coach\llmware
+[I 2024-05-15 16:13:51.582 ServerApp] Jupyter Server 2.14.0 is running at:
+[I 2024-05-15 16:13:51.582 ServerApp] http://localhost:8888/tree?token=c10454e41b105f9dd06f3cf04557abc93d97884a38d482c4
+[I 2024-05-15 16:13:51.582 ServerApp]     http://127.0.0.1:8888/tree?token=c10454e41b105f9dd06f3cf04557abc93d97884a38d482c4
+[I 2024-05-15 16:13:51.583 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-05-15 16:13:51.728 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///C:/Users/hsyyu/AppData/Roaming/jupyter/runtime/jpserver-12680-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/tree?token=c10454e41b105f9dd06f3cf04557abc93d97884a38d482c4
+        http://127.0.0.1:8888/tree?token=c10454e41b105f9dd06f3cf04557abc93d97884a38d482c4
+[W 2024-05-15 16:13:51.768 ServerApp] Could not determine npm prefix: [WinError 193] %1 is not a valid Win32 application
+[I 2024-05-15 16:13:51.914 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2024-05-15 16:18:24.161 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-05-15 16:18:24.166 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-05-15 16:18:24.172 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-05-15 16:18:24.175 ServerApp] notebook | extension was successfully linked.
+[I 2024-05-15 16:18:24.431 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-05-15 16:18:24.500 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-05-15 16:18:24.503 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-05-15 16:18:24.504 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-05-15 16:18:24.508 LabApp] JupyterLab extension loaded from C:\Python312\Lib\site-packages\jupyterlab
+[I 2024-05-15 16:18:24.508 LabApp] JupyterLab application directory is C:\Python312\share\jupyter\lab
+[I 2024-05-15 16:18:24.509 LabApp] Extension Manager is 'pypi'.
+[I 2024-05-15 16:18:24.746 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-05-15 16:18:24.749 ServerApp] notebook | extension was successfully loaded.
+[I 2024-05-15 16:18:24.750 ServerApp] The port 8888 is already in use, trying another port.
+[I 2024-05-15 16:18:24.751 ServerApp] Serving notebooks from local directory: D:\repos\uconcreative\accent-coach\llmware
+[I 2024-05-15 16:18:24.751 ServerApp] Jupyter Server 2.14.0 is running at:
+[I 2024-05-15 16:18:24.751 ServerApp] http://localhost:8889/tree?token=82b1a51f229dae3ccff7148be81b3ceed809972be5653145
+[I 2024-05-15 16:18:24.751 ServerApp]     http://127.0.0.1:8889/tree?token=82b1a51f229dae3ccff7148be81b3ceed809972be5653145
+[I 2024-05-15 16:18:24.751 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-05-15 16:18:24.812 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///C:/Users/hsyyu/AppData/Roaming/jupyter/runtime/jpserver-6184-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/tree?token=82b1a51f229dae3ccff7148be81b3ceed809972be5653145
+        http://127.0.0.1:8889/tree?token=82b1a51f229dae3ccff7148be81b3ceed809972be5653145
+[W 2024-05-15 16:18:24.847 ServerApp] Could not determine npm prefix: [WinError 193] %1 is not a valid Win32 application
+[I 2024-05-15 16:18:24.992 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2024-05-15 16:18:46.446 ServerApp] Notebook fast_start/example-1-create_first_library.ipynb is not trusted
+[W 2024-05-15 16:18:47.064 ServerApp] Notebook fast_start/example-1-create_first_library.ipynb is not trusted
+[I 2024-05-15 16:18:47.471 ServerApp] Kernel started: ff1326af-9806-47b8-99f3-251822d44eca
+[I 2024-05-15 16:18:48.680 ServerApp] Connecting to kernel ff1326af-9806-47b8-99f3-251822d44eca.
+[I 2024-05-15 16:18:48.686 ServerApp] Connecting to kernel ff1326af-9806-47b8-99f3-251822d44eca.
+[I 2024-05-15 16:18:48.701 ServerApp] Connecting to kernel ff1326af-9806-47b8-99f3-251822d44eca.
+[W 2024-05-15 16:18:48.757 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x000001B0F7EBB4A0>
+[W 2024-05-15 16:18:48.759 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x000001B0F7EBAAB0>
+[I 2024-05-15 16:20:47.181 ServerApp] Saving file at /fast_start/example-1-create_first_library.ipynb
+[I 2024-05-15 16:21:18.554 ServerApp] Starting buffering for ff1326af-9806-47b8-99f3-251822d44eca:2a067008-56f8-4757-b922-429ba4418d42
+[I 2024-05-15 16:21:18.578 ServerApp] Connecting to kernel ff1326af-9806-47b8-99f3-251822d44eca.
+[I 2024-05-15 16:21:18.615 ServerApp] Starting buffering for ff1326af-9806-47b8-99f3-251822d44eca:109523e3-6386-4079-8c00-fd7f7b16dfdd
+[W 16:24:08.030 NotebookApp] Loading JupyterLab as a classic notebook (v6) extension.
+[I 2024-05-15 16:24:08.034 LabApp] JupyterLab extension loaded from C:\Users\hsyyu\anaconda3\Lib\site-packages\jupyterlab
+[I 2024-05-15 16:24:08.034 LabApp] JupyterLab application directory is C:\Users\hsyyu\anaconda3\share\jupyter\lab
+[I 16:24:09.345 NotebookApp] The port 8888 is already in use, trying another port.
+[I 16:24:09.346 NotebookApp] The port 8889 is already in use, trying another port.
+[I 16:24:09.347 NotebookApp] Serving notebooks from local directory: D:\repos\uconcreative\accent-coach\llmware
+[I 16:24:09.347 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 16:24:09.347 NotebookApp] http://localhost:8890/?token=328963c4a0907f0359c8c8e39a0af5ae456c4d9b9d81e9bb
+[I 16:24:09.347 NotebookApp]  or http://127.0.0.1:8890/?token=328963c4a0907f0359c8c8e39a0af5ae456c4d9b9d81e9bb
+[I 16:24:09.347 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:24:09.428 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/hsyyu/AppData/Roaming/jupyter/runtime/nbserver-14716-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/?token=328963c4a0907f0359c8c8e39a0af5ae456c4d9b9d81e9bb
+     or http://127.0.0.1:8890/?token=328963c4a0907f0359c8c8e39a0af5ae456c4d9b9d81e9bb
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 16:24:19.277 NotebookApp] Kernel started: a4b371fa-74bd-46e2-bd77-2c2fa1ca355b, name: python3
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 16:24:31.144 NotebookApp] Starting buffering for a4b371fa-74bd-46e2-bd77-2c2fa1ca355b:f70fbe0e9e25449086fd7c9e127f8909
+[I 16:24:31.426 NotebookApp] Kernel restarted: a4b371fa-74bd-46e2-bd77-2c2fa1ca355b
+[I 16:24:31.441 NotebookApp] Restoring connection for a4b371fa-74bd-46e2-bd77-2c2fa1ca355b:f70fbe0e9e25449086fd7c9e127f8909
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 16:24:32.998 NotebookApp] Replaying 3 buffered messages
+[I 16:26:19.195 NotebookApp] Saving file at /fast_start/example-1-create_first_library.ipynb
+[I 16:29:37.576 NotebookApp] Starting buffering for a4b371fa-74bd-46e2-bd77-2c2fa1ca355b:f70fbe0e9e25449086fd7c9e127f8909
+[I 16:29:43.425 NotebookApp] Interrupted...
+[I 16:29:43.426 NotebookApp] Shutting down 1 kernel
+[I 16:29:43.427 NotebookApp] Kernel shutdown: a4b371fa-74bd-46e2-bd77-2c2fa1ca355b
