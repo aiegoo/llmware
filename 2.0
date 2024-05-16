@@ -1,2 +1,3 @@
-Requirement already satisfied: sqlalchemy in c:\users\hsyyu\anaconda3\lib\site-packages (1.4.39)
-Requirement already satisfied: greenlet!=0.4.17 in c:\users\hsyyu\anaconda3\lib\site-packages (from sqlalchemy) (2.0.1)
+Requirement already satisfied: sqlalchemy in c:\users\hsyyu\anaconda3\lib\site-packages (2.0.30)
+Requirement already satisfied: typing-extensions>=4.6.0 in c:\users\hsyyu\appdata\roaming\python\python311\site-packages (from sqlalchemy) (4.11.0)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\hsyyu\anaconda3\lib\site-packages (from sqlalchemy) (3.0.3)
