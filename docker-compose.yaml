@@ -18,10 +18,10 @@ services:
     container_name: mongodb
     image: mongo:5.0.10
     # To secure MongoDB, uncomment and set the following values
-    # environment:
-    #   - MONGO_INITDB_DATABASE=admin
-    #   - MONGO_INITDB_ROOT_USERNAME=admin
-    #   - MONGO_INITDB_ROOT_PASSWORD=changeme
+    environment:
+      - MONGO_INITDB_DATABASE=admin
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=changeme
     volumes:
       - llmware-mongodb:/data/db:Z
     ports:

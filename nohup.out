@@ -201,3 +201,510 @@
 [I 16:29:43.425 NotebookApp] Interrupted...
 [I 16:29:43.426 NotebookApp] Shutting down 1 kernel
 [I 16:29:43.427 NotebookApp] Kernel shutdown: a4b371fa-74bd-46e2-bd77-2c2fa1ca355b
+[I 2024-05-16 20:44:11.227 ServerApp] aext_assistant | extension was successfully linked.
+[I 2024-05-16 20:44:11.240 ServerApp] aext_core | extension was successfully linked.
+[I 2024-05-16 20:44:11.243 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2024-05-16 20:44:11.246 ServerApp] jupyter_server_mathjax | extension was successfully linked.
+[I 2024-05-16 20:44:11.249 ServerApp] jupyter_server_ydoc | extension was successfully linked.
+[I 2024-05-16 20:44:11.253 ServerApp] jupyterlab | extension was successfully linked.
+[W 2024-05-16 20:44:11.260 NotebookApp] 'notebook_dir' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-05-16 20:44:11.262 ServerApp] notebook_dir is deprecated, use root_dir
+[W 2024-05-16 20:44:11.262 ServerApp] nbclassic | error linking extension: No such directory: ''/d/repos/uconcreative/accent-coach/llmware''
+    Traceback (most recent call last):
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\jupyter_server\extension\manager.py", line 342, in link_extension
+        extension.link_all_points(self.serverapp)
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\jupyter_server\extension\manager.py", line 226, in link_all_points
+        self.link_point(point_name, serverapp)
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\jupyter_server\extension\manager.py", line 218, in link_point
+        point.link(serverapp)
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\jupyter_server\extension\manager.py", line 137, in link
+        linker(serverapp)
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\nbclassic\notebookapp.py", line 211, in _link_jupyter_server_extension
+        return super()._link_jupyter_server_extension(serverapp)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\jupyter_server\extension\application.py", line 395, in _link_jupyter_server_extension
+        self.serverapp.update_config(self.config)
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\traitlets\config\configurable.py", line 244, in update_config
+        self._load_config(config)
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\traitlets\config\configurable.py", line 179, in _load_config
+        with self.hold_trait_notifications():
+      File "C:\Users\hsyyu\anaconda3\Lib\contextlib.py", line 144, in __exit__
+        next(self.gen)
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\traitlets\traitlets.py", line 1510, in hold_trait_notifications
+        self.notify_change(change)
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\traitlets\traitlets.py", line 1525, in notify_change
+        return self._notify_observers(change)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\traitlets\traitlets.py", line 1568, in _notify_observers
+        c(event)
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\jupyter_server\serverapp.py", line 1607, in _update_notebook_dir
+        self.root_dir = change["new"]
+        ^^^^^^^^^^^^^
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\traitlets\traitlets.py", line 716, in __set__
+        self.set(obj, value)
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\traitlets\traitlets.py", line 690, in set
+        new_value = self._validate(obj, value)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\traitlets\traitlets.py", line 724, in _validate
+        value = self._cross_validate(obj, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\traitlets\traitlets.py", line 730, in _cross_validate
+        value = obj._trait_validators[self.name](obj, proposal)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\traitlets\traitlets.py", line 1241, in __call__
+        return self.func(*args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "C:\Users\hsyyu\anaconda3\Lib\site-packages\jupyter_server\serverapp.py", line 1642, in _root_dir_validate
+        raise TraitError(trans.gettext("No such directory: '%r'") % value)
+    traitlets.traitlets.TraitError: No such directory: ''/d/repos/uconcreative/accent-coach/llmware''
+[I 2024-05-16 20:44:11.279 ServerApp] nbdime | extension was successfully linked.
+[I 2024-05-16 20:44:11.754 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-05-16 20:44:11.754 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2024-05-16 20:44:11.793 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-05-16 20:44:11.794 ServerApp] Registered aext_assistant server extension
+[I 2024-05-16 20:44:11.794 ServerApp] aext_assistant | extension was successfully loaded.
+[I 2024-05-16 20:44:11.794 ServerApp] Registered aext_core server extension
+[I 2024-05-16 20:44:11.794 ServerApp] aext_core | extension was successfully loaded.
+[I 2024-05-16 20:44:11.794 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2024-05-16 20:44:11.794 FileIdExtension] ArbitraryFileIdManager : Configured root dir: D:/repos/uconcreative/accent-coach/llmware
+[I 2024-05-16 20:44:11.794 FileIdExtension] ArbitraryFileIdManager : Configured database path: C:\Users\hsyyu\AppData\Roaming\jupyter\file_id_manager.db
+[I 2024-05-16 20:44:11.798 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2024-05-16 20:44:11.798 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2024-05-16 20:44:11.801 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2024-05-16 20:44:11.801 ServerApp] jupyter_server_mathjax | extension was successfully loaded.
+[I 2024-05-16 20:44:11.802 ServerApp] jupyter_server_ydoc | extension was successfully loaded.
+[I 2024-05-16 20:44:11.802 LabApp] JupyterLab extension loaded from C:\Users\hsyyu\anaconda3\Lib\site-packages\jupyterlab
+[I 2024-05-16 20:44:11.802 LabApp] JupyterLab application directory is C:\Users\hsyyu\anaconda3\share\jupyter\lab
+[I 2024-05-16 20:44:11.804 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-05-16 20:44:11.811 ServerApp] nbclassic | extension was successfully loaded.
+[I 2024-05-16 20:44:11.943 ServerApp] nbdime | extension was successfully loaded.
+[I 2024-05-16 20:44:11.944 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2024-05-16 20:44:11.945 ServerApp] Serving notebooks from local directory: D:\repos\uconcreative\accent-coach\llmware
+[I 2024-05-16 20:44:11.945 ServerApp] Jupyter Server 1.23.4 is running at:
+[I 2024-05-16 20:44:11.945 ServerApp] http://localhost:8888/lab?token=921d6027776e24956867cf79f1e626752e3689fcc0fd82e8
+[I 2024-05-16 20:44:11.945 ServerApp]  or http://127.0.0.1:8888/lab?token=921d6027776e24956867cf79f1e626752e3689fcc0fd82e8
+[I 2024-05-16 20:44:11.945 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-05-16 20:44:12.025 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///C:/Users/hsyyu/AppData/Roaming/jupyter/runtime/jpserver-15956-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=921d6027776e24956867cf79f1e626752e3689fcc0fd82e8
+     or http://127.0.0.1:8888/lab?token=921d6027776e24956867cf79f1e626752e3689fcc0fd82e8
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2024-05-16 20:44:15.202 ServerApp] 404 GET /api/me?1715859854935 (::1) 21.00ms referer=http://localhost:8888/lab
+[W 2024-05-16 20:44:15.391 LabApp] Failed validating settings (@jupyterlab/filebrowser-extension:browser): Additional properties are not allowed ('showFileCheckboxes', 'showFileSizeColumn', 'showFullPath', 'sortNotebooksFirst' were unexpected)
+    
+    Failed validating 'additionalProperties' in schema:
+        {'additionalProperties': False,
+         'description': 'File Browser settings.',
+         'jupyter.lab.menus': {'context': [{'rank': 0,
+                                            'selector': '.jp-DirListing-content',
+                                            'type': 'separator'},
+                                           {'command': 'filebrowser:open',
+                                            'rank': 1,
+                                            'selector': '.jp-DirListing-item[data-isdir]'},
+                                           {'rank': 4,
+                                            'selector': '.jp-DirListing-item[data-isdir]',
+                                            'type': 'separator'},
+                                           {'command': 'filebrowser:rename',
+                                            'rank': 5,
+                                            'selector': '.jp-DirListing-item[data-isdir]'},
+                                           {'command': 'filebrowser:delete',
+                                            'rank': 6,
+                                            'selector': '.jp-DirListing-item[data-isdir]'},
+                                           {'command': 'filebrowser:cut',
+                                            'rank': 7,
+                                            'selector': '.jp-DirListing-item[data-isdir]'},
+                                           {'command': 'filebrowser:copy',
+                                            'rank': 8,
+                                            'selector': '.jp-DirListing-item[data-isdir="false"]'},
+                                           {'command': 'filebrowser:paste',
+                                            'rank': 8.5,
+                                            'selector': '.jp-DirListing-content'},
+                                           {'command': 'filebrowser:duplicate',
+                                            'rank': 9,
+                                            'selector': '.jp-DirListing-item[data-isdir="false"]'},
+                                           {'rank': 10,
+                                            'selector': '.jp-DirListing-item[data-isdir]',
+                                            'type': 'separator'},
+                                           {'command': 'filebrowser:shutdown',
+                                            'rank': 11,
+                                            'selector': '.jp-DirListing-item[data-isdir="false"].jp-mod-running'},
+                                           {'rank': 12,
+                                            'selector': '.jp-DirListing-item[data-isdir]',
+                                            'type': 'separator'},
+                                           {'command': 'filebrowser:copy-path',
+                                            'rank': 14,
+                                            'selector': '.jp-DirListing-item[data-isdir]'},
+                                           {'command': 'filebrowser:toggle-last-modified',
+                                            'rank': 14,
+                                            'selector': '.jp-DirListing-header'},
+                                           {'command': 'filebrowser:share-main',
+                                            'rank': 15,
+                                            'selector': '.jp-DirListing-item[data-isdir]'},
+                                           {'rank': 50,
+                                            'selector': '.jp-DirListing-item[data-isdir]',
+                                            'type': 'separator'},
+                                           {'command': 'filebrowser:create-new-file',
+                                            'rank': 51,
+                                            'selector': '.jp-DirListing-content'},
+                                           {'command': 'filebrowser:create-new-directory',
+                                            'rank': 55,
+                                            'selector': '.jp-DirListing-content'}],
+                               'main': [{'id': 'jp-mainmenu-file',
+                                         'items': [{'command': 'filebrowser:create-main-launcher',
+                                                    'rank': 1},
+                                                   {'rank': 1,
+                                                    'type': 'separator'},
+                                                   {'command': 'filebrowser:open-path',
+                                                    'rank': 1},
+                                                   {'command': 'filebrowser:open-url',
+                                                    'rank': 1}]},
+                                        {'id': 'jp-mainmenu-view',
+                                         'items': [{'command': 'filebrowser:toggle-hidden-files',
+                                                    'rank': 9.95}]},
+                                        {'id': 'jp-mainmenu-settings',
+                                         'items': [{'rank': 5,
+                                                    'type': 'separator'},
+                                                   {'command': 'filebrowser:toggle-navigate-to-current-directory',
+                                                    'rank': 5},
+                                                   {'rank': 5,
+                                                    'type': 'separator'}]}]},
+         'jupyter.lab.setting-icon': 'ui-components:folder',
+         'jupyter.lab.setting-icon-label': 'File Browser',
+         'jupyter.lab.shortcuts': [{'command': 'filebrowser:create-main-launcher',
+                                    'keys': ['Accel Shift L'],
+                                    'selector': 'body'},
+                                   {'command': 'filebrowser:toggle-main',
+                                    'keys': ['Accel Shift F'],
+                                    'selector': 'body'},
+                                   {'command': 'filebrowser:go-up',
+                                    'keys': ['Backspace'],
+                                    'selector': '.jp-DirListing-content '
+                                                '.jp-DirListing-itemText'},
+                                   {'command': 'filebrowser:delete',
+                                    'keys': ['Delete'],
+                                    'selector': '.jp-DirListing-content '
+                                                '.jp-DirListing-itemText'},
+                                   {'command': 'filebrowser:cut',
+                                    'keys': ['Accel X'],
+                                    'selector': '.jp-DirListing-content '
+                                                '.jp-DirListing-itemText'},
+                                   {'command': 'filebrowser:copy',
+                                    'keys': ['Accel C'],
+                                    'selector': '.jp-DirListing-content '
+                                                '.jp-DirListing-itemText'},
+                                   {'command': 'filebrowser:paste',
+                                    'keys': ['Accel V'],
+                                    'selector': '.jp-DirListing-content '
+                                                '.jp-DirListing-itemText'},
+                                   {'command': 'filebrowser:rename',
+                                    'keys': ['F2'],
+                                    'selector': '.jp-DirListing-content '
+                                                '.jp-DirListing-itemText'},
+                                   {'command': 'filebrowser:duplicate',
+                                    'keys': ['Accel D'],
+                                    'selector': '.jp-DirListing-content '
+                                                '.jp-DirListing-itemText'}],
+         'properties': {'filterDirectories': {'default': True,
+                                              'description': 'Whether to apply '
+                                                             'the search on '
+                                                             'directories',
+                                              'title': 'Filter directories',
+                                              'type': 'boolean'},
+                        'navigateToCurrentDirectory': {'default': False,
+                                                       'description': 'Whether '
+                                                                      'to '
+                                                                      'automatically '
+                                                                      'navigate '
+                                                                      'to a '
+                                                                      "document's "
+                                                                      'current '
+                                                                      'directory',
+                                                       'title': 'Navigate to '
+                                                                'current '
+                                                                'directory',
+                                                       'type': 'boolean'},
+                        'showHiddenFiles': {'default': False,
+                                            'description': 'Whether to show '
+                                                           'hidden files',
+                                            'title': 'Show hidden files',
+                                            'type': 'boolean'},
+                        'showLastModifiedColumn': {'default': True,
+                                                   'description': 'Whether to '
+                                                                  'show the '
+                                                                  'last '
+                                                                  'modified '
+                                                                  'column',
+                                                   'title': 'Show last '
+                                                            'modified column',
+                                                   'type': 'boolean'},
+                        'useFuzzyFilter': {'default': True,
+                                           'description': 'Whether to apply '
+                                                          'fuzzy algorithm '
+                                                          'while filtering on '
+                                                          'file names',
+                                           'title': 'Filter on file name with '
+                                                    'a fuzzy search',
+                                           'type': 'boolean'}},
+         'title': 'File Browser',
+         'type': 'object'}
+    
+    On instance:
+        {'showFileCheckboxes': True,
+         'showFileSizeColumn': True,
+         'showFullPath': True,
+         'sortNotebooksFirst': True}
+[I 2024-05-16 20:44:17.163 LabApp] Build is up to date
+[W 2024-05-16 20:44:17.339 ServerApp] 500 GET /api/nbconvert?1715859856777 (::1): Could not import nbconvert: lxml.html.clean module is now a separate project lxml_html_clean.
+    Install lxml[html_clean] or lxml_html_clean directly.
+[W 2024-05-16 20:44:17.339 ServerApp] wrote error: 'Could not import nbconvert: lxml.html.clean module is now a separate project lxml_html_clean.\nInstall lxml[html_clean] or lxml_html_clean directly.'
+[E 2024-05-16 20:44:17.340 ServerApp] {
+      "Host": "localhost:8888",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/lab",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0"
+    }
+[E 2024-05-16 20:44:17.340 ServerApp] 500 GET /api/nbconvert?1715859856777 (::1) 177.89ms referer=http://localhost:8888/lab
+[W 2024-05-16 20:44:17.346 ServerApp] 500 GET /api/nbconvert?1715859856779 (::1): Could not import nbconvert: lxml.html.clean module is now a separate project lxml_html_clean.
+    Install lxml[html_clean] or lxml_html_clean directly.
+[W 2024-05-16 20:44:17.346 ServerApp] wrote error: 'Could not import nbconvert: lxml.html.clean module is now a separate project lxml_html_clean.\nInstall lxml[html_clean] or lxml_html_clean directly.'
+[E 2024-05-16 20:44:17.346 ServerApp] {
+      "Host": "localhost:8888",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/lab",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0"
+    }
+[E 2024-05-16 20:44:17.346 ServerApp] 500 GET /api/nbconvert?1715859856779 (::1) 179.89ms referer=http://localhost:8888/lab
+[W 2024-05-16 20:44:17.562 ServerApp] wrote error: 'Forbidden'
+[W 2024-05-16 20:44:17.562 ServerApp] 403 GET /aext_assistant_server/nucleus_token?1715859856782 (::1) 395.22ms referer=http://localhost:8888/lab
+[W 2024-05-16 20:44:17.651 ServerApp] 404 GET /api/contents/examples/Datasets/build_embedding_metafactory_dataset.ipynb?content=0&1715859857594 (::1): file or directory does not exist: 'examples/Datasets/build_embedding_metafactory_dataset.ipynb'
+[W 2024-05-16 20:44:17.651 ServerApp] wrote error: "file or directory does not exist: 'examples/Datasets/build_embedding_metafactory_dataset.ipynb'"
+[W 2024-05-16 20:44:17.652 ServerApp] 404 GET /api/contents/examples/Datasets/build_embedding_metafactory_dataset.ipynb?content=0&1715859857594 (::1) 28.95ms referer=http://localhost:8888/lab
+[W 2024-05-16 20:44:17.671 ServerApp] 404 GET /api/contents/jMeterMetrics2.ipynb?content=0&1715859857600 (::1): file or directory does not exist: 'jMeterMetrics2.ipynb'
+[W 2024-05-16 20:44:17.672 ServerApp] wrote error: "file or directory does not exist: 'jMeterMetrics2.ipynb'"
+[W 2024-05-16 20:44:17.672 ServerApp] 404 GET /api/contents/jMeterMetrics2.ipynb?content=0&1715859857600 (::1) 13.70ms referer=http://localhost:8888/lab
+[W 2024-05-16 20:44:18.298 LabApp] Failed validating settings (@jupyterlab/filebrowser-extension:browser): Additional properties are not allowed ('showFileCheckboxes', 'showFileSizeColumn', 'showFullPath', 'sortNotebooksFirst' were unexpected)
+    
+    Failed validating 'additionalProperties' in schema:
+        {'additionalProperties': False,
+         'description': 'File Browser settings.',
+         'jupyter.lab.menus': {'context': [{'rank': 0,
+                                            'selector': '.jp-DirListing-content',
+                                            'type': 'separator'},
+                                           {'command': 'filebrowser:open',
+                                            'rank': 1,
+                                            'selector': '.jp-DirListing-item[data-isdir]'},
+                                           {'rank': 4,
+                                            'selector': '.jp-DirListing-item[data-isdir]',
+                                            'type': 'separator'},
+                                           {'command': 'filebrowser:rename',
+                                            'rank': 5,
+                                            'selector': '.jp-DirListing-item[data-isdir]'},
+                                           {'command': 'filebrowser:delete',
+                                            'rank': 6,
+                                            'selector': '.jp-DirListing-item[data-isdir]'},
+                                           {'command': 'filebrowser:cut',
+                                            'rank': 7,
+                                            'selector': '.jp-DirListing-item[data-isdir]'},
+                                           {'command': 'filebrowser:copy',
+                                            'rank': 8,
+                                            'selector': '.jp-DirListing-item[data-isdir="false"]'},
+                                           {'command': 'filebrowser:paste',
+                                            'rank': 8.5,
+                                            'selector': '.jp-DirListing-content'},
+                                           {'command': 'filebrowser:duplicate',
+                                            'rank': 9,
+                                            'selector': '.jp-DirListing-item[data-isdir="false"]'},
+                                           {'rank': 10,
+                                            'selector': '.jp-DirListing-item[data-isdir]',
+                                            'type': 'separator'},
+                                           {'command': 'filebrowser:shutdown',
+                                            'rank': 11,
+                                            'selector': '.jp-DirListing-item[data-isdir="false"].jp-mod-running'},
+                                           {'rank': 12,
+                                            'selector': '.jp-DirListing-item[data-isdir]',
+                                            'type': 'separator'},
+                                           {'command': 'filebrowser:copy-path',
+                                            'rank': 14,
+                                            'selector': '.jp-DirListing-item[data-isdir]'},
+                                           {'command': 'filebrowser:toggle-last-modified',
+                                            'rank': 14,
+                                            'selector': '.jp-DirListing-header'},
+                                           {'command': 'filebrowser:share-main',
+                                            'rank': 15,
+                                            'selector': '.jp-DirListing-item[data-isdir]'},
+                                           {'rank': 50,
+                                            'selector': '.jp-DirListing-item[data-isdir]',
+                                            'type': 'separator'},
+                                           {'command': 'filebrowser:create-new-file',
+                                            'rank': 51,
+                                            'selector': '.jp-DirListing-content'},
+                                           {'command': 'filebrowser:create-new-directory',
+                                            'rank': 55,
+                                            'selector': '.jp-DirListing-content'}],
+                               'main': [{'id': 'jp-mainmenu-file',
+                                         'items': [{'command': 'filebrowser:create-main-launcher',
+                                                    'rank': 1},
+                                                   {'rank': 1,
+                                                    'type': 'separator'},
+                                                   {'command': 'filebrowser:open-path',
+                                                    'rank': 1},
+                                                   {'command': 'filebrowser:open-url',
+                                                    'rank': 1}]},
+                                        {'id': 'jp-mainmenu-view',
+                                         'items': [{'command': 'filebrowser:toggle-hidden-files',
+                                                    'rank': 9.95}]},
+                                        {'id': 'jp-mainmenu-settings',
+                                         'items': [{'rank': 5,
+                                                    'type': 'separator'},
+                                                   {'command': 'filebrowser:toggle-navigate-to-current-directory',
+                                                    'rank': 5},
+                                                   {'rank': 5,
+                                                    'type': 'separator'}]}]},
+         'jupyter.lab.setting-icon': 'ui-components:folder',
+         'jupyter.lab.setting-icon-label': 'File Browser',
+         'jupyter.lab.shortcuts': [{'command': 'filebrowser:create-main-launcher',
+                                    'keys': ['Accel Shift L'],
+                                    'selector': 'body'},
+                                   {'command': 'filebrowser:toggle-main',
+                                    'keys': ['Accel Shift F'],
+                                    'selector': 'body'},
+                                   {'command': 'filebrowser:go-up',
+                                    'keys': ['Backspace'],
+                                    'selector': '.jp-DirListing-content '
+                                                '.jp-DirListing-itemText'},
+                                   {'command': 'filebrowser:delete',
+                                    'keys': ['Delete'],
+                                    'selector': '.jp-DirListing-content '
+                                                '.jp-DirListing-itemText'},
+                                   {'command': 'filebrowser:cut',
+                                    'keys': ['Accel X'],
+                                    'selector': '.jp-DirListing-content '
+                                                '.jp-DirListing-itemText'},
+                                   {'command': 'filebrowser:copy',
+                                    'keys': ['Accel C'],
+                                    'selector': '.jp-DirListing-content '
+                                                '.jp-DirListing-itemText'},
+                                   {'command': 'filebrowser:paste',
+                                    'keys': ['Accel V'],
+                                    'selector': '.jp-DirListing-content '
+                                                '.jp-DirListing-itemText'},
+                                   {'command': 'filebrowser:rename',
+                                    'keys': ['F2'],
+                                    'selector': '.jp-DirListing-content '
+                                                '.jp-DirListing-itemText'},
+                                   {'command': 'filebrowser:duplicate',
+                                    'keys': ['Accel D'],
+                                    'selector': '.jp-DirListing-content '
+                                                '.jp-DirListing-itemText'}],
+         'properties': {'filterDirectories': {'default': True,
+                                              'description': 'Whether to apply '
+                                                             'the search on '
+                                                             'directories',
+                                              'title': 'Filter directories',
+                                              'type': 'boolean'},
+                        'navigateToCurrentDirectory': {'default': False,
+                                                       'description': 'Whether '
+                                                                      'to '
+                                                                      'automatically '
+                                                                      'navigate '
+                                                                      'to a '
+                                                                      "document's "
+                                                                      'current '
+                                                                      'directory',
+                                                       'title': 'Navigate to '
+                                                                'current '
+                                                                'directory',
+                                                       'type': 'boolean'},
+                        'showHiddenFiles': {'default': False,
+                                            'description': 'Whether to show '
+                                                           'hidden files',
+                                            'title': 'Show hidden files',
+                                            'type': 'boolean'},
+                        'showLastModifiedColumn': {'default': True,
+                                                   'description': 'Whether to '
+                                                                  'show the '
+                                                                  'last '
+                                                                  'modified '
+                                                                  'column',
+                                                   'title': 'Show last '
+                                                            'modified column',
+                                                   'type': 'boolean'},
+                        'useFuzzyFilter': {'default': True,
+                                           'description': 'Whether to apply '
+                                                          'fuzzy algorithm '
+                                                          'while filtering on '
+                                                          'file names',
+                                           'title': 'Filter on file name with '
+                                                    'a fuzzy search',
+                                           'type': 'boolean'}},
+         'title': 'File Browser',
+         'type': 'object'}
+    
+    On instance:
+        {'showFileCheckboxes': True,
+         'showFileSizeColumn': True,
+         'showFullPath': True,
+         'sortNotebooksFirst': True}
+[W 2024-05-16 20:44:18.379 ServerApp] Notebook examples/Embedding/docs2vecs_with_milvus-un_resolutions.ipynb is not trusted
+[W 2024-05-16 20:44:18.438 ServerApp] Notebook examples/Datasets/build_embedding_ft_dataset.ipynb is not trusted
+[W 2024-05-16 20:44:18.490 ServerApp] Notebook examples/Embedding/embeddings_fast_start.ipynb is not trusted
+[W 2024-05-16 20:44:18.507 ServerApp] Notebook examples/Embedding/docs2vecs_with_milvus-contracts.ipynb is not trusted
+[W 2024-05-16 20:44:18.552 ServerApp] Notebook examples/Notebooks/quickstart_rag_colab.ipynb is not trusted
+[W 2024-05-16 20:44:18.565 ServerApp] Notebook examples/Notebooks/NoteBook_Examples/Parsing,_Text_Chunking_and_Indexing_(Ex_1)_Fast_Start_to_RAG_(2024_update).ipynb is not trusted
+[I 2024-05-16 20:44:19.248 ServerApp] Kernel started: ebde85c7-7097-45e9-9aff-ec7b3de22af9
+[I 2024-05-16 20:44:19.253 ServerApp] Kernel started: c2e2ce88-a20c-4dc1-b386-0b5e6619c824
+[I 2024-05-16 20:44:19.258 ServerApp] Kernel started: b7c6fe22-2cf7-4a0a-bcf0-95659d523717
+[I 2024-05-16 20:44:19.258 ServerApp] Kernel started: 342ebc96-b6a2-461b-a5bb-55762abb0bdc
+[I 2024-05-16 20:44:19.259 ServerApp] Kernel started: 38ecb3b9-abfb-4045-988d-931949cf2c93
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.01s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2024-05-16 20:44:20.886 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x000002E7062EE1D0>
+[I 2024-05-16 20:44:24.717 ServerApp] Kernel started: 9c348f60-cf62-49e3-8f3a-ed2dfe41cec3
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-05-16 20:44:34.118 ServerApp] Interrupted...
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                                                                           
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
