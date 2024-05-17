@@ -72,7 +72,7 @@ services:
     volumes:
       - llmware-milvus:/var/lib/milvus:Z
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:9091/healthz"]
+      test: ["CMD", "curl", "-f", "http://localho   st:9091/healthz"]
       interval: 30s
       start_period: 90s
       timeout: 20s
