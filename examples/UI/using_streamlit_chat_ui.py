@@ -41,7 +41,7 @@ def simple_chat_ui_app (model_name):
             st.markdown(message["content"])
 
     # accept user input
-    prompt = st.chat_input("Say something")
+    prompt = st.chat_input("Say something uconcreative")
     if prompt:
 
         with st.chat_message("user"):

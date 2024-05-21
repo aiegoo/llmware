@@ -9,7 +9,7 @@ sleep 30
 
 # Step 2: Launch Anaconda Prompt shell
 #echo "Launching Anaconda PowerShell Prompt shell..."
-start cmd.exe /k "cd /d C:\Users\hsyyu & conda.bat activate 'C:\Users\hsyyu\anaconda3'"
+#start cmd.exe /k "cd /d C:\Users\hsyyu & conda.bat activate 'C:\Users\hsyyu\anaconda3'"
 #
 ## Wait for Anaconda PowerShell Prompt shell to open
 #sleep 10
